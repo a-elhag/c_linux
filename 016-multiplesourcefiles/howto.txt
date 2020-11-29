@@ -1,0 +1,8 @@
+# Original Way
+gcc -c main.c /* only compiled code */
+gcc -c addnumbers.c /* only compiled code */
+gcc -o full main.o addnumbers.o /*link together*/
+
+
+# Shortcut way
+gcc -o full main.c addnumbers.c /* link together directly */

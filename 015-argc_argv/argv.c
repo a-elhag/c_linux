@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /* $ ./argv hello 1 2 3 */
+/* $ ./argv "hello world" howdy 'part of learning' 3 */
 
 int main(int argc, char *argv[])
 {
